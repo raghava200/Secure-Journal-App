@@ -20,19 +20,21 @@ A secure, RESTful journal application that allows users to safely create and man
 - **Authentication**: JWT (JSON Web Token)
 - **Build Tool**: Maven
 
+
+
 ## 📂 Project Structure
 
-src/
-├── main/
-│ ├── java/
-│ │ └── com.example.journal
-│ │ ├── controller
-│ │ ├── model
-│ │ ├── repository
-│ │ ├── security
-│ │ └── service
-│ └── resources/
-│ └── application.properties
+src/  
+├── main/  
+│   ├── java/  
+│   │   └── com/example/journal  
+│   │       ├── controller  
+│   │       ├── model  
+│   │       ├── repository  
+│   │       ├── security  
+│   │       └── service  
+│   └── resources/  
+│       └── application.properties  
 
 
 ## 🧪 How to Run
