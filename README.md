@@ -52,13 +52,13 @@ JWT is used for stateless and secure communication between client and server.
 Only authenticated users can access their own entries.
 
 🛠️ API Endpoints (Sample)
-Method	Endpoint	Description
-POST	/api/auth/register	Register new user
-POST	/api/auth/login	Login and get JWT token
-GET	/api/journal/entries	Fetch journal entries
-POST	/api/journal/entry	Create a journal entry
-PUT	/api/journal/entry	Update a journal entry
-DELETE	/api/journal/entry	Delete a journal entry
+- Method	Endpoint	Description
+- POST	/api/auth/register	Register new user
+- POST	/api/auth/login	Login and get JWT token
+- GET	/api/journal/entries	Fetch journal entries
+- POST	/api/journal/entry	Create a journal entry
+- PUT	/api/journal/entry	Update a journal entry
+- DELETE	/api/journal/entry	Delete a journal entry
 
 📌 Future Enhancements
 - Add frontend using React or Thymeleaf
