@@ -35,7 +35,6 @@ src/
 │ └── application.properties
 
 
-
 ## 🧪 How to Run
 
 1. **Clone the repository**
@@ -44,21 +43,23 @@ src/
    cd secure-journal-app
 2. **Configure MongoDB**
     Make sure MongoDB is installed and running. Update application.properties with your database details.
+
 🔒 Security Highlights
 Passwords are hashed using BCrypt before storing in the database.
-
 JWT is used for stateless and secure communication between client and server.
-
 Only authenticated users can access their own entries.
 
-🛠️ API Endpoints (Sample)
-- Method	Endpoint	Description
-- POST	/api/auth/register	Register new user
-- POST	/api/auth/login	Login and get JWT token
-- GET	/api/journal/entries	Fetch journal entries
-- POST	/api/journal/entry	Create a journal entry
-- PUT	/api/journal/entry	Update a journal entry
-- DELETE	/api/journal/entry	Delete a journal entry
+## 🛠️ API Endpoints
+
+| Method | Endpoint               | Description             |
+|--------|------------------------|-------------------------|
+| POST   | `/api/auth/register`   | Register new user       |
+| POST   | `/api/auth/login`      | Login and get JWT token |
+| GET    | `/api/journal/entries` | Fetch journal entries   |
+| POST   | `/api/journal/entry`   | Create a journal entry  |
+| PUT    | `/api/journal/entry`   | Update a journal entry  |
+| DELETE | `/api/journal/entry`   | Delete a journal entry  |
+
 
 📌 Future Enhancements
 - Add frontend using React or Thymeleaf
